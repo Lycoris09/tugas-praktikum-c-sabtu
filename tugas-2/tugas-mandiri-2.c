@@ -7,6 +7,6 @@ int main (){
 	
 	printf("Menghitung volume bangun ruang bola\n");
 	printf("Diameter  = %f \n",d);
-	printf("Jari jari = 15/2 = %f.2 \n",r);
-	printf("Volume    = 4/3*3.14*r^3 =%2.f ",v);
+	printf("Jari jari = 15/2 = %f \n",r);
+	printf("Volume    = 4/3*3.14*r^3 =%2.f cm^3",v);
 }
