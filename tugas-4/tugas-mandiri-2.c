@@ -3,15 +3,15 @@
 main()
 {
 	int nilai;
-	printf("masukan nilaii =");
+	printf("inputkan nilai nilaii =");
 	scanf("%d",&nilai);
 	
-	if(nilai>50){
+	if(nilai > 50){
 		nilai= nilai - 25;
-		printf("%d",nilai);
+		printf("hasil inputkan nilai di - 25 = %d",nilai);
 	}
-	else{
+	else if(nilai < 50 ){
 		nilai= nilai + 10 ;
-		printf("%d",nilai);
+		printf("hasil inputkan nilai di + 10 = %d",nilai);
 	}
 }
